@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  margin: auto;
+  height: 115em;
+  width: 80rem;
+  padding: 1px;
+/* align-items: center; */
+  background-color: white;
+  color: hsla(299, 50%, 100, 200);
+}
+.hey{
+  height: 100px;
+  width: 450px;
+  padding: 20px;
+  margin: 20px 200px;
+  color:blueviolet;
+  border: 1px;
+  outline:none;
+}
+.container {
+  height: 322px;
+  width: 850px;
+  margin: 0px 10px;
+  padding: 5px;
+  border: 1px;
+}
+img{
+  height: 200px;
+  width: 200px;
+  padding: 10px;
+  margin: auto 250px;
+  border-radius: 15px;
+  position: relative;
+}
+a {
+  text-decoration: none;
+  margin: auto 250px;
+  
+}
+hr {
+  text-decoration: dotted;
+  margin: 20px;
+}
+.mist{
+  width:  200px;
+  height: 20px 50px;
+  padding:5px;
+  border: 1px;
+  margin: auto 250px;
+  text-align: center;
+  text-decoration-style: wavy;
+  color: rgb(95, 5, 18);
+  
+}
+.skills {
+ height:590px;
+ width:700px;
+ padding: 2px;
+ margin: 8px 0px;
+ background: lightblue;
+ color:coral;
+ text-align: center;
+}
+.one {
+  margin: 0 250px;
+  padding: .05px;
+  text-align: center;
+  border: 1px;
+  background-color: rgb(16, 53, 41);
+  border-radius: 50px;
+  -webkit-animation: 0px 16px 7px 0px rgba(90, 114, 78, 0);
+  -webkit-box-shadow: 0px 16px 7px 0px rgba(0, 20, 5, 0.5);
+  -moz-box-shadow: 0px, 7px, 2px, 0px rgba(9, 9, 139, 0.2);
+}
+
+.services{
+ margin: auto 50px;
+ border: 2px;
+ padding: 4px;
+ height: 110px;
+ width: 400px;
+ text-align: left;
+}
+.section {
+  margin: 50px 150px;
+  padding: 1px;
+  border: 2px ;
+  height: 30px;
+  width: 500px;
+  text-align: center;
+  border-radius: 5px;
+  color:rgb(15, 15, 14);
+ 
+}
+.form {
+  margin: 25px;
+  height: 600px;
+  width: 500px;
+  /* display: flex;
+  flex-direction: column; */
+}
+input {
+  margin: 2px 50px;
+  width: 0 200px;
+  padding:2px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgb(250, 253, 252);
+  border-top: 2px;
+  border-right : 2px;
+  border-left: 2px;
+}
+label {
+  margin:2px 50px;
+ 
+}
+textarea {
+  margin:2px 50px;
+  height: 150px;
+  width: 300px;
+  background:rgb(241, 245, 247);
+  text-align: center;
+}
+legend {
+  margin: auto 100px
+}
+
+fieldset {
+  border-style:none;
+  padding:5px;
+  margin: 5px 200px;
+  background-color: rgba(77, 194, 155, 0.486);
+}
+button{
+  padding: auto ;
+  margin: auto 100px;
+  width: 100px;
+  
+}
+
+
+
+
+
+
+
