@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,500&family=Montserrat:wght@400;500;700&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -5,15 +7,171 @@
 }
 
 .main {
-  margin: auto;
-  height: 115em;
-  width: 80rem;
-  padding: 1px;
-/* align-items: center; */
-  background-color: white;
+  margin: 20px auto;
+  font-family: sans-serif;
+  font-size: 20px;
+  background-color: #fff;
   color: hsla(299, 50%, 100, 200);
+  line-height: 2rem;
+  width: 100%;
+  height: 100%;
 }
-.hey{
+
+.hey {
+  font-family: "fraunces", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.mist {
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 60px;
+}
+
+.wrap {
+  display: flex;
+  margin: 0 200px;
+  /* gap: 100px; */
+}
+
+.wrap p {
+  padding: 20px 0;
+  width: 50%;
+}
+
+.wrapper {
+  width: 350px;
+}
+
+.wrapper img {
+  width: 150px;
+  border-radius: 100%;
+}
+
+.wrapper p a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.wrapper p a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.skills {
+    font-family: "fraunces", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    /* text-align: center; */
+  }
+
+  .one {
+    text-align: center;
+  font-size: 20px;
+  padding: 30px 0;
+}
+
+.wrapp {
+  display: flex;
+  margin: 0 200px;
+  gap: 200px;
+}
+
+.img img {
+  width: 150px;
+  border-radius: 100%;
+}
+
+.text {
+  width: 50%;
+  line-height: 1.4rem;
+}
+
+.rapp {
+  margin: 30px auto; 
+  width: 20%;
+}
+  
+
+.rapp img {
+  width: 250px;
+  border-radius: 10px;
+}
+
+.rapp h2 {
+  width: 200%;
+}
+
+
+.services, .section {
+  margin: 20px 200px;
+}
+
+.section h2, .section h3 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.form {
+  margin: 0 auto;
+  width: 30%;
+}
+
+form {
+  /* margin-left: -50px; */
+}
+
+legend {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-left: 60px;
+}
+
+label {
+  font-size: 14px;
+}
+
+.name {
+  display: flex;
+  width: 100%;
+}
+
+input {
+  width: 40%;
+  padding: 3px;
+  border: none;
+  border-bottom: 2px solid #000;
+  margin-left: -50px;
+  outline: none;
+}
+
+.gender {
+  font-size: 14px;
+}
+
+/* .radio {
+  margin-left: -50px;
+  justify-items: flex-start;
+} */
+
+.gender [type=radio] {
+ /* margin-left: -50px; */
+  text-align: center;
+}
+
+
+
+
+/* .hey{
   height: 100px;
   width: 450px;
   padding: 20px;
@@ -41,8 +199,8 @@ a {
   text-decoration: none;
   margin: auto 250px;
   
-}
-hr {
+} */
+/* hr {
   text-decoration: dotted;
   margin: 20px;
 }
@@ -76,9 +234,9 @@ hr {
   -webkit-animation: 0px 16px 7px 0px rgba(90, 114, 78, 0);
   -webkit-box-shadow: 0px 16px 7px 0px rgba(0, 20, 5, 0.5);
   -moz-box-shadow: 0px, 7px, 2px, 0px rgba(9, 9, 139, 0.2);
-}
+} */
 
-.services{
+/* .services{
  margin: auto 50px;
  border: 2px;
  padding: 4px;
@@ -125,8 +283,8 @@ textarea {
   width: 300px;
   background:rgb(241, 245, 247);
   text-align: center;
-}
-legend {
+} */
+/* legend {
   margin: auto 100px
 }
 
@@ -141,7 +299,7 @@ button{
   margin: auto 100px;
   width: 100px;
   
-}
+} */
 
 
 
